@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+html, body{
+
+}
+
+/****************** header redes sociais ***************/
+
+header{
+    width: 100%;
+    position: static;
+}
+
+header .redes-sociais{
+    display: flex;
+    padding: 5px 25px;
+    justify-content:flex-end; 
+    background-color: black; 
+}
+
+header .redes-sociais a{
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.ico-fb{
+    background-image: url('fb.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+.ico-instagram{
+    background-image: url('instagram.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+.ico-wa{
+    background-image: url('wa.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+.ico-linkedin{
+    background-image: url('linkedin.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+
+}
+
+/***************** header ************************/
+
+header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: #17191b;
+    color: white;
+    align-items: center;
+}
+
+header .menu .logo a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    
+}
+
+header .menu .logo img{
+    margin-right: 20px;
+    width: 50px;
+}
+
+
+header .menu nav{
+    display: flex;
+}
+
+header .menu nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header .menu ul li a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+header .menu ul li a:hover{
+    color: rgb(252, 252, 98);
+    transition: 0.5s;
+}
+
+header .menu-mobile{
+    display: none;
+    flex-direction: column;
+}
+
+header .menu-mobile .bar-menu-mobile{
+    width: 35px;
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+header .menu-mobile .bar-menu-mobile:nth-of-type(3){
+    margin-bottom: 0;
+}
+
+/*********************** section banner ******************/
+
+.banner{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+
+}
+
+section .banner1{
+    background-image: url('banner1pb.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    flex: 2;
+    color: white;  
+}
+
+.banner1-frase{
+    background-color: ;
+    text-align: left;
+    margin:80px auto;
+    font-size: 40px;
+    max-width: 500px;
+    padding-left: 20px;
+    
+}
+
+section .banner1-description{
+    flex: 1;
+    color: white;
+    background-color: black;
+
+}
+
+section .banner1-desc-box{
+    max-width: 300px;
+    background-color: #17191b7e;
+    margin: 0px;
+}
+
+/*section .banner1-desc-box:hover{
+    background-color: #17191b7e;
+    transition: 0.5s;
+}*/
+
+section .banner1-desc-box img{
+    width: 30px;
+    height: auto;
+}
+
+section .banner1-desc-box ul{
+    list-style: none;
+    padding: 10px 20px; 
+}
+
+section .banner1-desc-box li{
+    margin: 15px;
+}
+
+section .banner1-desc-box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+section .banner1-desc-box li a:hover{
+    color: rgb(252, 252, 98);
+    transition: 0.5s;
+}
+
+/******************** titulos ****************/
+
+.titulos{
+    padding: 15px 0;
+    width: 100%;
+    background-color: #17191b;
+    text-align: center;
+    color: white;
+}
+
+/**********************section solucoes ****************/
+
+section.solucoes{
+    background-color: white;
+}
+
+section.solucoes .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+section.solucoes .container .solucoes-ico{
+    width: 100%;
+    text-align: center;
+}
+
+section.solucoes .container img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px
+}
+
+section.solucoes .container ul{
+    list-style-position: inside;
+    padding: 15px 20px;
+}
+
+/********************* section contato ******************/
+
+section.contato .container{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px 0 20px;
+}
+
+section.contato .container img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+   
+}
+
+.contato-flex{
+    display: flex;
+    margin: 40px auto;
+    justify-content: center;
+    
+}
+
+.contato-flex a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.contato-flex a:hover{
+    color: rgb(252, 252, 98);
+    transition: 0.5s;
+}
+
+.contato-form, .contato-port{
+    width: 250px;
+    background-color: #17191b;
+    border: 1px solid #17191b ;
+    border-radius: 50px;
+    padding: 15px 15px;
+    margin: 0 15px;
+    
+}
+
+/***************** section tecnologias **************/
+
+
+.tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.tecnologias .tec-flex{
+    padding: 20px;
+    width: 33.3%;
+}
+
+.tecnologias .tec-flex h2{
+    text-align: center;
+}
+
+.tecnologias .tec-flex p{
+    text-align: justify;
+}
+
+.tecnologias .logo-tec{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 15px auto;
+    
+}
+
+ .tecnologias .HTML .logo-tec{
+    background-image: url('html5.png');
+    background-size: contain;
+}
+
+.tecnologias .CSS .logo-tec{
+    background-image: url('css-3.png');
+}
+
+.tecnologias .JavaScript .logo-tec{
+    background-image: url('javascript.png');
+}
+
+.tecnologias .WordPress .logo-tec{
+    background-image: url('wordpress.png');
+}
+
+.tecnologias .NodeJS .logo-tec{
+    background-image: url('node.png');
+}
+
+.tecnologias .ReactJS .logo-tec{
+    background-image: url('react.png');
+}
+
+.tecnologias .ReactNative .logo-tec{
+    background-image: url('react.png');
+}
+
+/************* Footer **************************/
+
+footer{
+    width: 100%;
+    background-color: #17191b;
+}
+
+footer .flex-footer{
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+footer .flex-footer .ff{
+    flex: 1; 
+    padding: 0 20px;
+}
+
+footer .flex-footer .ff p{
+    color: rgb(155, 155, 155);
+    font-size: 14px;
+}
+
+.logo-footer img{
+    width: 90px;
+}
+
+footer .contato{
+    border-left: 2px solid rgb(155,155,155);
+    border-right: 2px solid rgb(155,155,155);
+}
+
+footer .rights{
+    border-top: 1px solid rgb(100, 100, 100);
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(155, 155, 155);
+    font-size: 12px;
+}
+
+footer .rights a{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+/************** responsivo < 768px ****************/
+
+@media all and (max-width:768px) {
+    
+    header .menu nav{
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        padding: 20px 20px 20px 0; 
+        background-color: #17191b;
+    }
+
+    header .menu nav ul{
+        flex-direction: column;
+        
+    }
+
+    header .menu-mobile{
+        cursor: pointer;
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .banner1-desc-box{
+        max-width: 100%;
+        width: 100%;
+        background-color: transparent;
+        
+    }
+
+    .contato-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato-flex .contato-form{
+        margin-bottom: 20px;
+    }
+
+    .tecnologias .tec-flex{
+        width: 50%;
+    }
+
+    .tecnologias .tec-flex p{
+        display: none;
+    }
+
+    .flex-footer{
+        flex-direction: column;
+        
+    }
+
+    .flex-footer .contato{
+        border: none;
+    }
+
+    .flex-footer .ff{
+        margin-bottom: 20px;
+        align-items: center;
+        width: 100%;      
+    }
+}
+
+@media all and (max-width:510px){
+    .banner1-frase{ 
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:360px){
+    .logo img{
+        margin-right: none;
+        margin: 0 60px
+    }
+}
+
+
+
+
